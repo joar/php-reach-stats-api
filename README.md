@@ -1,18 +1,16 @@
 # PHP Halo: Reach Stats API
 
-This is a wrapper for the Halo: Reach SOAP API located at
-<http://www.bungie.net/api/reach/ReachApiSoap.svc>.
-
-It has been automatically generated using the service at
-<http://apigenerator.com/>
+A wrapper for the Halo: Reach SOAP API at
+<http://www.bungie.net/api/reach/ReachApiSoap.svc> automatically generated
+using <http://apigenerator.com/>
 
 To use this API you must abide by the [Bungie.net API Terms and Conditions][api_tac]
 
 ## Usage
 
-Full API documentation is available at [haloreachapi.net][haloreachapi] 
+[Full API documentation][haloreachapi] 
 
-Usage example of the `reachStatsApi`->[GetPlayerDetailsWithStatsByPlaylist][GetPlayerDetailsWithStatsByPlaylist]():
+Usage example of `reachStatsApi`->[GetPlayerDetailsWithStatsByPlaylist][GetPlayerDetailsWithStatsByPlaylist]():
 
 	$api = new reachStatsApi;
 	
