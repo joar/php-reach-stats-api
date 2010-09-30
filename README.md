@@ -6,13 +6,13 @@ This is a wrapper for the Halo: Reach SOAP API located at
 It has been automatically generated using the service at
 <http://apigenerator.com/>
 
-To use this API abide by the [Bungie.net API Terms and Conditions][api_tac]
+To use this API you must abide by the [Bungie.net API Terms and Conditions][api_tac]
 
 ## Usage
 
-The full API documentation is over at [haloreachapi.net][haloreachapi] 
+Full API documentation is available at [haloreachapi.net][haloreachapi] 
 
-This is an usage example for the reachStatsApi class and the [GetPlayerDetailsWithStatsByPlaylist][GetPlayerDetailsWithStatsByPlaylist] function:
+Usage example of the `reachStatsApi`->[GetPlayerDetailsWithStatsByPlaylist][GetPlayerDetailsWithStatsByPlaylist]():
 
 	$api = new reachStatsApi;
 	
